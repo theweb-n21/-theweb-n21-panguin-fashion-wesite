@@ -1,0 +1,49 @@
+/* =========================================================================================
+common css
+===========================================================================================*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.cotainer{
+    max-width: 90%;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*========================================================================================== 
+header__area css
+=========================================================================================*/
+.nav__bar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 200px;
+}
+.nav__bar ul{
+    display: none;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    padding: 16px;
+    background-color: gainsboro;
+    
+}
+.nav__bar ul.show{
+    display: block;
+}
+.nav__bar ul li{
+    padding-bottom: 16px;
+}
+.nav__bar ul li:last-child{
+    padding-bottom: 0;
+}
+.nav__bar ul li a{
+    color:#363958;
+    text-decoration: none;
+}
