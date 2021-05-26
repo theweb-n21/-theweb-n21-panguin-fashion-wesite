@@ -1,0 +1,138 @@
+/* =========================================================================================
+    tablat css
+==========================================================================================*/
+@media(min-width: 768px) {
+    .navlogo {
+        display: none;
+    }
+    .logo img{
+        width: 300px;
+    }
+
+    .nav__bar ul {
+        width: auto;
+        display: flex;
+        align-items: center;
+        background: transparent;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav__bar ul li {
+        padding-bottom: 0;
+        margin-left: 15px;
+    }
+
+    .nav__bar {
+        flex-wrap: nowrap;
+        padding-top: 16px;
+    }
+    .banner__inner-area{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer__area{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .f__card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    .f-logo img{
+        margin-top: 0;
+    }
+    .footer__image-area{
+        width: 50%;
+    }
+
+
+}
+/* ========================================================================================
+    laptop lyout
+=========================================================================================*/
+@media(min-width: 1024px) {
+    .navmanu li a{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: 30px;
+    }
+    
+    .card__area{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:flex-start;
+    }
+    .card{
+        margin: 0;
+        max-width: 290px;
+        height: 550px;
+    }
+    .one img{
+        width: 293px;
+        height: 293px;
+    }
+    .two img{
+        width: 203px;
+        height: 273px;
+    }
+    .three img{
+        width: 210px;
+        height: 257px;
+    }
+    .four img{
+        width: 202px;
+        height: 269px;
+    }
+    .five img{
+        width: 210px;
+        height: 280px;
+    }
+    .six img{
+        width: 192px;
+        height: 280px;
+    }
+    .image{
+        max-width: 343px;
+        margin: 10px;
+    }
+    .footer__area{
+        margin-top: 100px;
+    }
+    .woman__jacket-area h1 {
+        margin: 50px;
+        text-align: left;
+        font-size: 30px;
+    }
+    .man__jacket-area h1{
+        margin: 50px;
+        text-align: left;
+        font-size: 30px;
+    }
+}
+/* big laptop lyout */
+@media(min-width: 1440px) {
+    .card__area{
+        justify-content: space-evenly;
+    }
+    .card{
+        max-width: 343px;
+    }
+    .woman__jacket-area h1{
+        margin-left: 150px;
+    }
+    .man__jacket-area h1{
+        margin-left: 150px;
+    }
+    .footer__area{
+        justify-content: space-evenly;
+    }
+}

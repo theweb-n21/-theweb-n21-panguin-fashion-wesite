@@ -4,6 +4,8 @@ common css
 body{
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    line-height: 1.5em;
 }
 .cotainer{
     max-width: 90%;
@@ -49,4 +51,154 @@ header__area css
 .nav__bar ul li a{
     color:#363958;
     text-decoration: none;
+}
+/* =========================================================================================
+        banner__area css
+==========================================================================================*/
+.banner__area{
+    background-color: #FFFBF0;
+}
+.orange-highlight{
+    color:#FABE4C;
+}
+.banner__inner-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.banner__text h1{
+    color: #363958;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.banner__text p{
+    
+    color: #3E3E3E;
+    
+
+}
+.buy__btn{
+    max-width: 170px;
+    height: 20px;
+    text-decoration: none;
+    padding: 16px 25px;
+    background-image: linear-gradient(#A4BC46,#85A019);
+    border-radius: 10px;
+    color: white;
+    margin-top: 12px;
+
+}
+.fa-shopping-cart{
+    margin-right: 5px;
+}
+/* ==========================================================================================
+    woman__jacket-area CSS
+============================================================================================*/
+.woman__jacket-area h1{
+    text-align: center;
+}
+
+.card__area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 10px 10px 30px rgb(182, 179, 179);
+    border-radius: 10px;
+    margin-bottom: 24px;
+    max-width: 343px;
+    min-height: 550px;
+}
+.image{
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    max-width: 250px;
+} 
+.btn_area{
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.card__text{
+    margin: 0 10px;
+    text-align: justify;
+}
+.price{
+    font-size: 25px;
+    font-weight: bolder;
+}
+/* =======================================================================================
+    man__jacket-area css
+===========================================================================================*/
+.man__jacket-area h1{
+    text-align: center;
+}
+/* =======================================================================================
+    footer__area css
+===========================================================================================*/
+.footer__area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__card-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__image-area{
+    /* max-width: 343px; */
+    margin:57px 0 24px 0;
+}
+.f__card{
+    box-shadow: 10px 10px 30px whitesmoke;
+    max-width: 343px;
+    border-radius: 10px;
+    margin: 30px 0 0 0;
+}
+.f-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-logo img{
+    width: 78px;
+    margin-top: 25px;
+}
+.f__card-text{
+    text-align: center;
+    /* box-sizing: border-box; */
+}
+.f__card-text p{
+    margin:0;
+    padding: 15px;
+}
+.f__card-text h2{
+    margin: 16px 0 0 0;
+}
+/*========================================================================================== 
+        footer__area copy__right-block css
+============================================================================================*/
+.copy__right-block h4{
+    text-align: center;
+    color: gray;
+
+}
+.copy__right-block h4 img{
+    width: 16px;
 }
